@@ -337,7 +337,6 @@
                  "Only available <in tiles without [Desert]> <in tiles without [Snow]> <in tiles without [Grassland]>"//this is kinda awkward but it's the only thing I can think of that will limit this to plains and tundra as intended.
                 ] 		
   },  		
-  }, 
   { 
      "name": "a small desert tribe has agreed to your rule", 
      "notification": "A band of nomads has joined us!", 
