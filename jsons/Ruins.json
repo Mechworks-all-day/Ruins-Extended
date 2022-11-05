@@ -1,18 +1,288 @@
 [ 
-{ 
-"name": "discover cultural signs",
-"notification": "We have discovered cultural signs in the ruins! (+50 culture)",
-"weight": 4
-"uniques": ["Gain [50] [Culture]", "Hidden after founding a Pantheon"], 
-"color": "#cf8ff7" 
-},
-{ 
-"name": "discover cultural artifacts",
-"notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
-"weight": 4
-"uniques": ["Gain [150] [Culture]", "Hidden before founding a Pantheon", "Only available after [30] turns"], 
-"color": "#cf8ff7" 
-},
+//Gold 
+  {
+     "name":  "a tiny stash of gold",
+     "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
+      "weight": 5
+     "uniques": [
+                 "Gain [50]-[100] [Gold]"
+                ], 
+  },
+  {
+     "name":  "a small stash of gold",
+     "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
+      "weight": 4
+     "uniques": [
+                 "Gain [150]-[225] [Gold]"
+                ], 
+  },
+  {
+     "name":  "a stash of gold",
+     "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
+      "weight": 3
+     "uniques": [
+                 "Gain [300]-[500] [Gold]"
+                ], 
+  },
+  {
+     "name":  "a large stash of gold",
+     "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
+      "weight": 2
+     "uniques": [
+                 "Gain [600]-[900] [Gold]"
+                ], 
+  },
+  {
+     "name":  "a huge stash of gold",
+     "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
+      "weight": 1
+     "uniques": [
+                 "Gain [800]-[1200] [Gold]"
+                ], 
+  },
+//Culture 
+  { 
+     "name": "discover minimal cultural signs",
+     "notification": "We have discovered cultural signs in the ruins!",
+     "weight": 5
+     "uniques": [
+                 "Gain [30]-[50] [Culture]", 
+                 "Hidden after founding a Pantheon"
+                 ], 
+  },
+  { 
+     "name": "discover some cultural signs",
+     "notification": "We have discovered cultural signs in the ruins!",
+     "weight": 4
+     "uniques": [
+                 "Gain [40]-[60] [Culture]", 
+                 "Hidden after founding a Pantheon"
+                 ], 
+  },
+  { 
+     "name": "discover cultural signs",
+     "notification": "We have discovered cultural signs in the ruins!",
+     "weight": 3
+     "uniques": [
+                 "Gain [50]-[80] [Culture]", 
+                 "Hidden after founding a Pantheon"
+                 ], 
+  },
+  { 
+     "name": "discover impressive cultural signs",
+     "notification": "We have discovered cultural signs in the ruins!",
+     "weight": 2
+     "uniques": [
+                 "Gain [60]-[90] [Culture]", 
+                 "Hidden after founding a Pantheon"
+                 ], 
+  },
+  { 
+     "name": "discover significant cultural signs",
+     "notification": "We have discovered cultural signs in the ruins!",
+     "weight": 1
+     "uniques": [
+                 "Gain [70]-[110] [Culture]", 
+                 "Hidden after founding a Pantheon"
+                 ], 
+  },
+  { 
+     "name": "discover minimal cultural artifacts",
+     "notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
+     "weight": 5
+     "uniques": [
+                 "Gain [50]-[100] [Culture]", 
+                 "Hidden before founding a Pantheon", 
+                 "Only available after [30] turns"
+                ], 
+  },
+  { 
+     "name": "discover minor cultural artifacts",
+     "notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
+     "weight": 4
+     "uniques": [
+                 "Gain [100]-[200] [Culture]", 
+                 "Hidden before founding a Pantheon", 
+                 "Only available after [30] turns"
+                ], 
+  },
+  { 
+     "name": "discover cultural artifacts",
+     "notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
+     "weight": 3
+     "uniques": [
+                 "Gain [150]-[300] [Culture]", 
+                 "Hidden before founding a Pantheon", 
+                 "Only available after [30] turns"
+                ], 
+  },
+  { 
+     "name": "discover significant cultural artifacts",
+     "notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
+     "weight": 2
+     "uniques": [
+                 "Gain [200]-[400] [Culture]", 
+                 "Hidden before founding a Pantheon", 
+                 "Only available after [30] turns"
+                ], 
+  },
+  { 
+     "name": "discover major cultural artifacts",
+     "notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
+     "weight": 1
+     "uniques": [
+                 "Gain [250]-[500] [Culture]", 
+                 "Hidden before founding a Pantheon", 
+                 "Only available after [30] turns"
+                ], 
+  },
+//Faith
+  { 
+     "name": "discover few holy symbols", 
+     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion!", 
+     "weight": 4
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Hidden after founding a Pantheon", 
+                 "Gain [2]-[3] [Faith]"
+                 ],
+  }, 
+  { 
+     "name": "discover holy symbols", 
+     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion!", 
+     "weight": 3
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Hidden after founding a Pantheon", 
+                 "Gain [3]-[5] [Faith]"
+                 ],
+  }, 
+  { 
+     "name": "discover many holy symbols", 
+     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion!", 
+     "weight": 2
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Hidden after founding a Pantheon", 
+                 "Gain [5]-[8] [Faith]"
+                 ],
+  }, 
+  { 
+     "name": "discover piles of holy symbols", 
+     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion!", 
+     "weight": 1
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Hidden after founding a Pantheon", 
+                 "Gain enough Faith for a Pantheon", 
+                 ],
+  }, 
+  { 
+     "name": "an obscure ancient prophecy", 
+     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection!", 
+     "weight": 4
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Hidden before founding a Pantheon", 
+                 "Only available after [20] turns",
+                 "Gain [200]-[300] [Faith]"
+                 ],
+  },
+  { 
+     "name": "an ancient prophecy", 
+     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection!", 
+     "weight": 3
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Hidden before founding a Pantheon", 
+                 "Only available after [20] turns",
+                 "Gain [300]-[500] [Faith]"
+                 ],
+  },
+  { 
+     "name": "a clear ancient prophecy", 
+     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection!", 
+     "weight": 2
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Hidden before founding a Pantheon", 
+                 "Only available after [20] turns",
+                 "Gain [500]-[800] [Faith]"
+                 ],
+  },
+  { 
+     "name": "an unambiguous ancient prophecy", 
+     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection!", 
+     "weight": 1
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Hidden before founding a Pantheon", 
+                 "Only available after [20] turns",
+                 "Gain enough Faith for [75]% of a Great Prophet", 
+                 ],
+  },
+//Science
+  { 
+     "name": "discover minor research", 
+     "notification": "We have discovered some research in the ruins!", 
+     "weight": 5
+     "uniques": [
+                 "Gain [50]-[80] [Science]"
+                ] 		
+  }, 
+  { 
+     "name": "discover simple research", 
+     "notification": "We have discovered some research in the ruins!", 
+     "weight": 4
+     "uniques": [
+                 "Gain [80]-[120] [Science]"
+                ] 		
+  }, 
+  { 
+     "name": "discover significant research", 
+     "notification": "We have discovered some research in the ruins!", 
+     "weight": 3
+     "uniques": [
+                 "Gain [120]-[180] [Science]"
+                ] 		
+  }, 
+  { 
+     "name": "discover major research", 
+     "notification": "We have discovered some research in the ruins!", 
+     "weight": 2
+     "uniques": [
+                 "Gain [180]-[270] [Science]"
+                ] 		
+  }, 
+  { 
+     "name": "discover groundbreaking research", 
+     "notification": "We have discovered some research in the ruins!", 
+     "weight": 1
+     "uniques": [
+                 "Gain [270]-[400] [Science]"
+                ] 		
+  }, 
+  { 
+     "name": "discover ancient technology", 
+     "notification": "We have discovered a technology from the Ancient Era in the ruins!", 
+     "weight": 4
+     "uniques": [
+                 "[1] free random researchable Tech(s) from the [Ancient era]"
+                ] 		
+  }, 
+  { 
+     "name": "discover classial technology", 
+     "notification": "We have discovered a technology from the Classical Era in the ruins!", 
+     "weight": 3
+     "uniques": [
+                 "[1] free random researchable Tech(s) from the [Classical era]",
+                 "Only available <starting from the [Classical era]>
+                ] 		
+  }, 
+
+discover a lost science
+//[", "[1] free random researchable Tech(s) from the [Medieval era]", "[1] free random researchable Tech(s) from the [Industrial era]"],
+
 { "name": "squatters willing to assist you", 
 "notification": "A [Great General] has joined us!", 
 "uniques": ["Free [Great General] found in the ruins"], 
@@ -42,20 +312,6 @@
 "weight": 3
 "uniques": ["[+3] population in a random city"], // This can't be easily added to cityFilter, as it is non-deterministic		
 "color": "#81c784" 
-}, 
-{ 
-"name": "a stash of gold", 
-"notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
-"weight": 4
-"uniques": ["Gain [150]-[500] [Gold]"], 
-"color": "#ffeb7f" 
-}, 
-{ 
-"name": "discover a lost science", 
-"notification": "We have discovered some lost science in the ruins!", 
-"weight": 2
-"uniques": ["Gain [50]-[100] [Science]"] //["[2] free random researchable Tech(s) from the [Ancient era]", "[1] free random researchable Tech(s) from the [Medieval era]", "[1] free random researchable Tech(s) from the [Industrial era]"],		
-"color": "#7f7fff" 
 }, 
 { 
 "name": "advanced weaponry for your explorer", 
