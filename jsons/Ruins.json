@@ -98,7 +98,7 @@
   },
   { 
      "name": "discover minor cultural artifacts",
-     "notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
+     "notification": "We have discovered cultural artifacts in the ruins!",
      "weight": 4
      "uniques": [
                  "Gain [100]-[200] [Culture]", 
@@ -108,7 +108,7 @@
   },
   { 
      "name": "discover cultural artifacts",
-     "notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
+     "notification": "We have discovered cultural artifacts in the ruins!",
      "weight": 3
      "uniques": [
                  "Gain [150]-[300] [Culture]", 
@@ -118,7 +118,7 @@
   },
   { 
      "name": "discover significant cultural artifacts",
-     "notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
+     "notification": "We have discovered cultural artifacts in the ruins!",
      "weight": 2
      "uniques": [
                  "Gain [200]-[400] [Culture]", 
@@ -128,7 +128,7 @@
   },
   { 
      "name": "discover major cultural artifacts",
-     "notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
+     "notification": "We have discovered cultural artifacts in the ruins!",
      "weight": 1
      "uniques": [
                  "Gain [250]-[500] [Culture]", 
