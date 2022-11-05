@@ -279,85 +279,210 @@
                  "Only available <starting from the [Classical era]>
                 ] 		
   }, 
-
-discover a lost science
-//[", "[1] free random researchable Tech(s) from the [Medieval era]", "[1] free random researchable Tech(s) from the [Industrial era]"],
-
-{ "name": "squatters willing to assist you", 
-"notification": "A [Great General] has joined us!", 
-"uniques": ["Free [Great General] found in the ruins"], 
-"excludedDifficulties": ["Immortal", "Deity"] 
-},
-/*{
-"name": "squatters wishing to trade under your rule", 
-"notification": "A [Great Merchant] has joined us!", 
-"uniques": ["Free [Great Merchant] found in the ruins"], 
-"excludedDifficulties": ["Immortal","Deity"] 
-},
-{
-"name": "squatters wishing to entertain under your rule", 
-"notification": "A [Great Artist] has joined us!", 
-"uniques": ["Free [Great Artist] found in the ruins"], 
-"excludedDifficulties": ["Immortal","Deity"] 
-}, */
-{ 
-"name": "your exploring unit receives training", 
-"notification": "An ancient tribe trained us in their ways of combat!", 
-"weight": 4
-"uniques": ["This Unit gains [30] XP", "Only available after [10] turns"] 
-}, 
-{ 
-"name": "survivors (adds population to a city)", 
-"notification": "We have found survivors in the ruins! Population added to [cityName].", 
-"weight": 3
-"uniques": ["[+3] population in a random city"], // This can't be easily added to cityFilter, as it is non-deterministic		
-"color": "#81c784" 
-}, 
-{ 
-"name": "advanced weaponry for your explorer", 
-"notification": "Our unit finds advanced weaponry hidden in the ruins!", 
-"weight": 3
-"uniques": ["This Unit upgrades for free including special upgrades", "This Unit gains [10] XP"] 
-}, 
-{ 
-"name": "reveal nearby Barbarian camps", 
-"notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!", 
-"weight": 2
-"uniques": ["Reveal up to [All] [Barbarian encampment] within a [100] tile radius"] 
-},
-{ 
-"name": "find a crudely-drawn map", 
-"notification": "We have found a crudely-drawn map in the ruins!", 
-"weight": 2
-"uniques": ["From a randomly chosen tile [8] tiles away from the ruins, reveal tiles up to [8] tiles away with [100]% chance"] 
-}, 
-{ 
-"name": "discover holy symbols", 
-"notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
-"weight": 4
-"uniques": ["Hidden when religion is disabled", "Gain enough Faith for a Pantheon", "Hidden after founding a Pantheon", "Only available after [20] turns", "Gain [30] [Culture]"],
-"color": "#CDDDF4" 
-}, 
-{ 
-"name": "an ancient prophecy", 
-"notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
-"weight": 3
-"uniques": ["Hidden when religion is disabled", "Gain enough Faith for [75]% of a Great Prophet", "Hidden after generating a Great Prophet", "Hidden before founding a Pantheon", "Only available after [20] turns"],
-"color": "#CDDDF4" 
-}
+  { 
+     "name": "discover medieval technology", 
+     "notification": "We have discovered a technology from the Medieval Era in the ruins!", 
+     "weight": 3
+     "uniques": [
+                 "[1] free random researchable Tech(s) from the [Medieval era]",
+                 "Only available <starting from the [Medieval era]>
+                ] 		
+  }, 
+//Natives
+  { 
+     "name": "a small barbarian tribe has agreed to your rule", 
+     "notification": "A local tribe has joined us!", 
+     "weight": 4
+     "uniques": [
+                 "Free [Worker] found in the ruins",
+                 "Free [Brute] found in the ruins",
+                 "Free [Skirmisher] found in the ruins"
+                ] 		
+  }, 
+  { 
+     "name": "a large barbarian tribe has agreed to your rule", 
+     "notification": "A local tribe has joined us!", 
+     "weight": 3
+     "uniques": [
+                 "Free [Settler] found in the ruins",
+                 "Free [Brute] found in the ruins",
+                 "Free [Brute] found in the ruins",
+                 "Free [Marauder] found in the ruins",
+                 "Free [Skirmisher] found in the ruins",
+                 "Free [Skirmisher] found in the ruins"
+                ] 		
+  }, 
+  { 
+     "name": "a small nomad tribe has agreed to your rule", 
+     "notification": "A band of nomads has joined us!", 
+     "weight": 3
+     "uniques": [
+                 "Free [Worker] found in the ruins",
+                 "Free [Horseman] found in the ruins",
+                 "Free [Horse Archer] found in the ruins"
+                 "Only available <in tiles without [Desert]> <in tiles without [Snow]> <in tiles without [Grassland]>"//this is kinda awkward but it's the only thing I can think of that will limit this to plains and tundra as intended.
+                ] 		
+  }, 
+  { 
+     "name": "a large nomad tribe has agreed to your rule", 
+     "notification": "A band of nomads has joined us!", 
+     "weight": 2
+     "uniques": [
+                 "Free [Settler] found in the ruins",
+                 "Free [Horseman] found in the ruins",
+                 "Free [Horseman] found in the ruins",
+                 "Free [Keshik] found in the ruins",
+                 "Free [Horse Archer] found in the ruins",
+                 "Free [Horse Archer] found in the ruins"
+                 "Only available <in tiles without [Desert]> <in tiles without [Snow]> <in tiles without [Grassland]>"//this is kinda awkward but it's the only thing I can think of that will limit this to plains and tundra as intended.
+                ] 		
+  },  		
+  }, 
+  { 
+     "name": "a small desert tribe has agreed to your rule", 
+     "notification": "A band of nomads has joined us!", 
+     "weight": 3
+     "uniques": [
+                 "Free [Worker] found in the ruins",
+                 "Free [War Chariot] found in the ruins",
+                 "Free [Camel Archer] found in the ruins",
+                 "Only available <in [Desert] tiles>"
+                ] 		
+  }, 
+  { 
+     "name": "a large desert tribe has agreed to your rule", 
+     "notification": "A band of nomads has joined us!", 
+     "weight": 2
+     "uniques": [
+                 "Free [Settler] found in the ruins",
+                 "Free [War Chariot] found in the ruins",
+                 "Free [War Chariot] found in the ruins",
+                 "Free [Camel Archer] found in the ruins",
+                 "Free [Camel Archer] found in the ruins",
+                 "Free [Camel Archer] found in the ruins",
+                 "Only available <in [Desert] tiles>"
+                ] 		
+  }, 
+  { 
+     "name": "a small jungle tribe has agreed to your rule", 
+     "notification": "A band of nomads has joined us!", 
+     "weight": 3
+     "uniques": [
+                 "Free [Worker] found in the ruins",
+                 "Free [Jaguar] found in the ruins",
+                 "Free [Atlatlist] found in the ruins",
+                 "Only available <in [Jungle] tiles>"
+                ] 		
+  }, 
+  { 
+     "name": "a large jungle tribe has agreed to your rule", 
+     "notification": "A band of nomads has joined us!", 
+     "weight": 2
+     "uniques": [
+                 "Free [Settler] found in the ruins",
+                 "Free [Jaguar] found in the ruins",
+                 "Free [Jaguar] found in the ruins",
+                 "Free [Jaguar] found in the ruins",
+                 "Free [Atlatlist] found in the ruins",
+                 "Free [Atlatlist] found in the ruins",
+                 "Only available <in [Jungle] tiles>"
+                ] 		
+  }, 
+  { 
+     "name": "a small jungle tribe has agreed to your rule", 
+     "notification": "A band of nomads has joined us!", 
+     "weight": 3
+     "uniques": [
+                 "Free [Worker] found in the ruins",
+                 "Free [Mohawk Warrior] found in the ruins",
+                 "Free [Bowman] found in the ruins",
+                 "Only available <in [Forest] tiles> <in tiles without [Tundra]>"
+                ] 		
+  }, 
+  { 
+     "name": "a large jungle tribe has agreed to your rule", 
+     "notification": "A band of nomads has joined us!", 
+     "weight": 2
+     "uniques": [
+                 "Free [Settler] found in the ruins",
+                 "Free [Mohawk Warrior] found in the ruins",
+                 "Free [Mohawk Warrior] found in the ruins",
+                 "Free [Bowman] found in the ruins",
+                 "Free [Bowman] found in the ruins",
+                 "Free [Bowman] found in the ruins",
+                 "Only available <in [Forest] tiles> <in tiles without [Tundra]>"
+                ] 		
+  }, 
+// Maps
+  { 
+     "name": "find a crudely-drawn map", 
+     "notification": "We have found an old map in the ruins!", 
+     "weight": 5
+     "uniques": ["From a randomly chosen tile [3] tiles away from the ruins, reveal tiles up to [6] tiles away with [90]% chance"] 
+  }, 
+  { 
+     "name": "find a bigger map", 
+     "notification": "We have found an old map in the ruins!", 
+     "weight": 4
+     "uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [8] tiles away with [90]% chance"] 
+  }, 
+  { 
+     "name": "find a even bigger map", 
+     "notification": "We have found an old map in the ruins!", 
+     "weight": 3
+     "uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [10] tiles away with [90]% chance"] 
+  }, 
+  { 
+     "name": "find a better map", 
+     "notification": "We have found an old map in the ruins!", 
+     "weight": 2
+     "uniques": ["From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [8] tiles away with [100]% chance"] 
+  }, 
+  { 
+     "name": "find a the best map", 
+     "notification": "We have found an old map in the ruins!", 
+     "weight": 1
+     "uniques": ["From a randomly chosen tile [8] tiles away from the ruins, reveal tiles up to [12] tiles away with [100]% chance"] 
+  }, 
+//Don't want to delete this but I make it less common 
+  { 
+     "name": "advanced weaponry for your explorer", 
+     "notification": "Our unit finds advanced weaponry hidden in the ruins!", 
+     "weight": 2
+     "uniques": [
+                "This Unit upgrades for free including special upgrades", 
+                "This Unit gains [15] XP"
+                ] 
+  }, 
 //Deletions
-{
-        "name": "squatters wishing to settle under your rule",
-        "notification": "A [Settler] has joined us!",
-        "weight": 0
-        "uniques": ["Free [Settler] found in the ruins"],
-        "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
-    },
-{
-        "name": "squatters willing to work for you",
-        "notification": "A [Worker] has joined us!",
-        "weight": 0
-        "uniques": ["Free [Worker] found in the ruins"],
-        "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
-    },
+  {
+     "name": "squatters wishing to settle under your rule",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  },
+  {
+     "name": "squatters willing to work for you",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  },
+  {
+     "name": "reveal nearby Barbarian camps",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  },
+  {
+     "name": "your exploring unit receives training camps",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  },
+  {
+     "name": "survivors (adds population to a city)",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  },
+  {
+     "name": "reveal nearby Barbarian camps",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  }
 ]
