@@ -296,10 +296,9 @@
      "notification": "A local tribe has joined us!", 
      "weight": 4
      "uniques": [
-*/                 "Free [Worker] found in the ruins",
-                 "Free [Brute] found in the ruins",
-                 "Free [Skirmisher] found in the ruins"
-/*
+//                 "Free [Worker] found in the ruins",
+//                 "Free [Brute] found in the ruins",
+//                 "Free [Skirmisher] found in the ruins"
 //So this doesn't actually work as intended
                  "Free [Worker] appears",
                  "Free [Brute] appears",
@@ -311,13 +310,12 @@
      "notification": "A local tribe has joined us!", 
      "weight": 3
      "uniques": [
-*/                 "Free [Settler] found in the ruins",
-                 "Free [Brute] found in the ruins",
-                 "Free [Brute] found in the ruins",
-                 "Free [Marauder] found in the ruins",
-                 "Free [Skirmisher] found in the ruins",
-                 "Free [Skirmisher] found in the ruins"
-/*
+//                 "Free [Settler] found in the ruins",
+//                 "Free [Brute] found in the ruins",
+//                 "Free [Brute] found in the ruins",
+//                 "Free [Marauder] found in the ruins",
+//                 "Free [Skirmisher] found in the ruins",
+//                 "Free [Skirmisher] found in the ruins"
                  "Free [Settler] appears",
                  "Free [Marauder] appears",
                  "[2] free [Skirmisher] units appear",
@@ -329,11 +327,10 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 2
      "uniques": [
-*/                 "Free [Worker] found in the ruins",
-                 "Free [Horseman] found in the ruins",
-                 "Free [Horse Archer] found in the ruins"
-                 "Only available <in tiles without [Desert]> <in tiles without [Snow]> <in tiles without [Grassland]>"//this is kinda awkward but it's the only thing I can think of that will limit this to plains and tundra as intended.
-/*
+//                 "Free [Worker] found in the ruins",
+//                 "Free [Horseman] found in the ruins",
+//                 "Free [Horse Archer] found in the ruins"
+//                 "Only available <in tiles without [Desert]> <in tiles without [Snow]> <in tiles without [Grassland]>"//this is kinda awkward but it's the only thing I can think of that will limit this to plains and tundra as intended.
                  "Free [Worker] appears",
                  "Free [Horseman] appears",
                  "Free [Horse Archer] appears"
@@ -344,14 +341,13 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 1
      "uniques": [
-*/                 "Free [Settler] found in the ruins",
-                 "Free [Horseman] found in the ruins",
-                 "Free [Horseman] found in the ruins",
-                 "Free [Keshik] found in the ruins",
-                 "Free [Horse Archer] found in the ruins",
-                 "Free [Horse Archer] found in the ruins"
-                 "Only available <in tiles without [Desert]> <in tiles without [Snow]> <in tiles without [Grassland]>"//this is kinda awkward but it's the only thing I can think of that will limit this to plains and tundra as intended.
-/*
+//                 "Free [Settler] found in the ruins",
+//                 "Free [Horseman] found in the ruins",
+//                 "Free [Horseman] found in the ruins",
+//                 "Free [Keshik] found in the ruins",
+//                 "Free [Horse Archer] found in the ruins",
+//                 "Free [Horse Archer] found in the ruins",
+//                 "Only available <in tiles without [Desert]> <in tiles without [Snow]> <in tiles without [Grassland]>"//this is kinda awkward but it's the only thing I can think of that will limit this to plains and tundra as intended.
 //Since the restrictions don't work anyway...
                  "Free [Settler] appears",
                  "Free [Keshik] appears",
@@ -364,11 +360,13 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 2
      "uniques": [
-*/                 "Free [Worker] found in the ruins",
-                 "Free [War Chariot] found in the ruins",
-                 "Free [Camel Archer] found in the ruins",
-                 "Only available <in [Desert] tiles>"
-/*
+//                 "Free [Worker] found in the ruins",
+//                 "Free [War Chariot] found in the ruins",
+//                 "Free [Camel Archer] found in the ruins",
+//                 "Only available <in [Desert] tiles>"
+                 "Free [Worker] appears",
+                 "Free [War Chariot] appears",
+                 "Free [Camel Archer] appears"
                 ] 		
   }, 
   { 
@@ -376,14 +374,13 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 1
      "uniques": [
-*/                 "Free [Settler] found in the ruins",
-                 "Free [War Chariot] found in the ruins",
-                 "Free [War Chariot] found in the ruins",
-                 "Free [War Chariot] found in the ruins",
-                 "Free [Camel Archer] found in the ruins",
-                 "Free [Camel Archer] found in the ruins",
-                 "Only available <in [Desert] tiles>"
-/*
+//                 "Free [Settler] found in the ruins",
+//                 "Free [War Chariot] found in the ruins",
+//                 "Free [War Chariot] found in the ruins",
+//                 "Free [War Chariot] found in the ruins",
+//                 "Free [Camel Archer] found in the ruins",
+//                 "Free [Camel Archer] found in the ruins",
+//                 "Only available <in [Desert] tiles>"
                  "Free [Settler] appears",
                  "[3] free [War Chariot] units appear",
                  "[2] free [Camel Archer] units appear"
@@ -394,11 +391,10 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 3
      "uniques": [
-*/                 "Free [Worker] found in the ruins",
-                 "Free [Jaguar] found in the ruins",
-                 "Free [Atlatlist] found in the ruins",
-                 "Only available <in [Jungle] tiles>"
-/*
+//                 "Free [Worker] found in the ruins",
+//                 "Free [Jaguar] found in the ruins",
+//                 "Free [Atlatlist] found in the ruins",
+//                 "Only available <in [Jungle] tiles>"
                  "Free [Worker] appears",
                  "Free [Jaguar] appears",
                  "Free [Atlatlist] appears"
@@ -409,18 +405,16 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 2
      "uniques": [
-*/                 "Free [Settler] found in the ruins",
-                 "Free [Jaguar] found in the ruins",
-                 "Free [Jaguar] found in the ruins",
-                 "Free [Jaguar] found in the ruins",
-                 "Free [Atlatlist] found in the ruins",
-                 "Free [Atlatlist] found in the ruins",
-                 "Only available <in [Jungle] tiles>"
-/*
+//                 "Free [Settler] found in the ruins",
+//                 "Free [Jaguar] found in the ruins",
+//                 "Free [Jaguar] found in the ruins",
+//                 "Free [Jaguar] found in the ruins",
+//                 "Free [Atlatlist] found in the ruins",
+//                 "Free [Atlatlist] found in the ruins",
+//                 "Only available <in [Jungle] tiles>"
                  "Free [Settler] appears",
                  "[3] free [Jaguar] units appear",
                  "[2] free [Atlatlist] units appear"
-
                 ] 		
   }, 
   { 
@@ -428,11 +422,10 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 3
      "uniques": [
-*/                 "Free [Worker] found in the ruins",
-                 "Free [Mohawk Warrior] found in the ruins",
-                 "Free [Bowman] found in the ruins",
-                 "Only available <in [Forest] tiles> <in tiles without [Tundra]>"
-/*
+//                 "Free [Worker] found in the ruins",
+//                 "Free [Mohawk Warrior] found in the ruins",
+//                 "Free [Bowman] found in the ruins",
+//                 "Only available <in [Forest] tiles> <in tiles without [Tundra]>"
                  "Free [Worker] appears",
                  "Free [Mohawk Warrior] appears",
                  "Free [Bowman] appears"
@@ -443,14 +436,13 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 2
      "uniques": [
-*/                 "Free [Settler] found in the ruins",
-                 "Free [Mohawk Warrior] found in the ruins",
-                 "Free [Mohawk Warrior] found in the ruins",
-                 "Free [Bowman] found in the ruins",
-                 "Free [Bowman] found in the ruins",
-                 "Free [Bowman] found in the ruins",
-                 "Only available <in [Forest] tiles> <in tiles without [Tundra]>"
-/*
+//                 "Free [Settler] found in the ruins",
+//                 "Free [Mohawk Warrior] found in the ruins",
+//                 "Free [Mohawk Warrior] found in the ruins",
+//                 "Free [Bowman] found in the ruins",
+//                 "Free [Bowman] found in the ruins",
+//                 "Free [Bowman] found in the ruins",
+//                 "Only available <in [Forest] tiles> <in tiles without [Tundra]>"
                  "Free [Settler] appears",
                  "[3] free [Bowman] units appear",
                  "[2] free [Mohawk Warrior] units appear"
