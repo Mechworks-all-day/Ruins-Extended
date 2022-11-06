@@ -43,7 +43,7 @@
 //Culture 
   { 
      "name": "discover minimal cultural signs",
-     "notification": "We have discovered cultural signs in the ruins!",
+     "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
      "weight": 8
      "uniques": [
                  "Gain [30]-[50] [Culture]", 
@@ -52,7 +52,7 @@
   },
   { 
      "name": "discover some cultural signs",
-     "notification": "We have discovered cultural signs in the ruins!",
+     "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
      "weight": 7
      "uniques": [
                  "Gain [40]-[60] [Culture]", 
@@ -61,7 +61,7 @@
   },
   { 
      "name": "discover cultural signs",
-     "notification": "We have discovered cultural signs in the ruins!",
+     "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
      "weight": 6
      "uniques": [
                  "Gain [50]-[80] [Culture]", 
@@ -70,7 +70,7 @@
   },
   { 
      "name": "discover impressive cultural signs",
-     "notification": "We have discovered cultural signs in the ruins!",
+     "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
      "weight": 5
      "uniques": [
                  "Gain [60]-[90] [Culture]", 
@@ -79,7 +79,7 @@
   },
   { 
      "name": "discover significant cultural signs",
-     "notification": "We have discovered cultural signs in the ruins!",
+     "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
      "weight": 4
      "uniques": [
                  "Gain [70]-[110] [Culture]", 
@@ -88,7 +88,7 @@
   },
   { 
      "name": "discover minimal cultural artifacts",
-     "notification": "We have discovered cultural artifacts in the ruins!",
+     "notification": "We have discovered cultural artifacts in the ruins! (+[cultureAmount] Culture)",
      "weight": 7
      "uniques": [
                  "Gain [50]-[100] [Culture]", 
@@ -98,7 +98,7 @@
   },
   { 
      "name": "discover minor cultural artifacts",
-     "notification": "We have discovered cultural artifacts in the ruins!",
+     "notification": "We have discovered cultural artifacts in the ruins! (+[cultureAmount] Culture)",
      "weight": 6
      "uniques": [
                  "Gain [100]-[200] [Culture]", 
@@ -108,7 +108,7 @@
   },
   { 
      "name": "discover cultural artifacts",
-     "notification": "We have discovered cultural artifacts in the ruins!",
+     "notification": "We have discovered cultural artifacts in the ruins! (+[cultureAmount] Culture)",
      "weight": 5
      "uniques": [
                  "Gain [150]-[300] [Culture]", 
@@ -118,7 +118,7 @@
   },
   { 
      "name": "discover significant cultural artifacts",
-     "notification": "We have discovered cultural artifacts in the ruins!",
+     "notification": "We have discovered cultural artifacts in the ruins! (+[cultureAmount] Culture)",
      "weight": 4
      "uniques": [
                  "Gain [200]-[400] [Culture]", 
@@ -128,7 +128,7 @@
   },
   { 
      "name": "discover major cultural artifacts",
-     "notification": "We have discovered cultural artifacts in the ruins!",
+     "notification": "We have discovered cultural artifacts in the ruins! (+[cultureAmount] Culture)",
      "weight": 3
      "uniques": [
                  "Gain [250]-[500] [Culture]", 
@@ -139,7 +139,7 @@
 //Faith
   { 
      "name": "discover few holy symbols", 
-     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion!", 
+     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
      "weight": 8
      "uniques": [
                  "Hidden when religion is disabled", 
@@ -149,7 +149,7 @@
   }, 
   { 
      "name": "discover holy symbols", 
-     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion!", 
+     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
      "weight": 7
      "uniques": [
                  "Hidden when religion is disabled", 
@@ -159,7 +159,7 @@
   }, 
   { 
      "name": "discover many holy symbols", 
-     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion!", 
+     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
      "weight": 6
      "uniques": [
                  "Hidden when religion is disabled", 
@@ -169,7 +169,7 @@
   }, 
   { 
      "name": "discover piles of holy symbols", 
-     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion!", 
+     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
      "weight": 5
      "uniques": [
                  "Hidden when religion is disabled", 
@@ -179,7 +179,7 @@
   }, 
   { 
      "name": "an obscure ancient prophecy", 
-     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection!", 
+     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
      "weight": 7
      "uniques": [
                  "Hidden when religion is disabled", 
@@ -190,7 +190,7 @@
   },
   { 
      "name": "an ancient prophecy", 
-     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection!", 
+     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
      "weight": 6
      "uniques": [
                  "Hidden when religion is disabled", 
@@ -201,7 +201,7 @@
   },
   { 
      "name": "a clear ancient prophecy", 
-     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection!", 
+     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
      "weight": 5
      "uniques": [
                  "Hidden when religion is disabled", 
@@ -212,19 +212,19 @@
   },
   { 
      "name": "an unambiguous ancient prophecy", 
-     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection!", 
+     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
      "weight": 4
      "uniques": [
                  "Hidden when religion is disabled", 
                  "Hidden before founding a Pantheon", 
                  "Only available after [20] turns",
-                 "Gain enough Faith for [75]% of a Great Prophet", 
+                 "Gain enough Faith for [100]% of a Great Prophet", 
                  ],
   },
 //Science
   { 
      "name": "discover minor research", 
-     "notification": "We have discovered some research in the ruins!", 
+     "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)", 
      "weight": 8
      "uniques": [
                  "Gain [50]-[80] [Science]"
@@ -232,7 +232,7 @@
   }, 
   { 
      "name": "discover simple research", 
-     "notification": "We have discovered some research in the ruins!", 
+     "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)", 
      "weight": 7
      "uniques": [
                  "Gain [80]-[120] [Science]"
@@ -240,7 +240,7 @@
   }, 
   { 
      "name": "discover significant research", 
-     "notification": "We have discovered some research in the ruins!", 
+     "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)", 
      "weight": 6
      "uniques": [
                  "Gain [120]-[180] [Science]"
@@ -248,7 +248,7 @@
   }, 
   { 
      "name": "discover major research", 
-     "notification": "We have discovered some research in the ruins!", 
+     "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)", 
      "weight": 5
      "uniques": [
                  "Gain [180]-[270] [Science]"
@@ -256,7 +256,7 @@
   }, 
   { 
      "name": "discover groundbreaking research", 
-     "notification": "We have discovered some research in the ruins!", 
+     "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)", 
      "weight": 4
      "uniques": [
                  "Gain [270]-[400] [Science]"
@@ -459,19 +459,19 @@
 // Maps
   { 
      "name": "find a crudely-drawn map", 
-     "notification": "We have found an old map in the ruins!", 
+     "notification": "We have found a crudely drawn map in the ruins!", 
      "weight": 8
      "uniques": ["From a randomly chosen tile [3] tiles away from the ruins, reveal tiles up to [6] tiles away with [90]% chance"] 
   }, 
   { 
      "name": "find a bigger map", 
-     "notification": "We have found an old map in the ruins!", 
+     "notification": "We have found a simple map in the ruins!", 
      "weight": 7
      "uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [8] tiles away with [90]% chance"] 
   }, 
   { 
      "name": "find a even bigger map", 
-     "notification": "We have found an old map in the ruins!", 
+     "notification": "We have found a damaged wall relief of a map in the ruins!", 
      "weight": 6
      "uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [10] tiles away with [90]% chance"] 
   }, 
@@ -483,7 +483,7 @@
   }, 
   { 
      "name": "find a the best map", 
-     "notification": "We have found an old map in the ruins!", 
+     "notification": "We have found a old area map in the ruins!", 
      "weight": 4
      "uniques": ["From a randomly chosen tile [8] tiles away from the ruins, reveal tiles up to [12] tiles away with [100]% chance"] 
   }, 
