@@ -3,7 +3,7 @@
   {
      "name":  "a tiny stash of gold",
      "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
-      "weight": 5
+      "weight": 8
      "uniques": [
                  "Gain [50]-[100] [Gold]"
                 ], 
@@ -11,7 +11,7 @@
   {
      "name":  "a small stash of gold",
      "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
-      "weight": 4
+      "weight": 7
      "uniques": [
                  "Gain [150]-[225] [Gold]"
                 ], 
@@ -19,7 +19,7 @@
   {
      "name":  "a stash of gold",
      "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
-      "weight": 3
+      "weight": 6
      "uniques": [
                  "Gain [300]-[500] [Gold]"
                 ], 
@@ -27,7 +27,7 @@
   {
      "name":  "a large stash of gold",
      "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
-      "weight": 2
+      "weight": 5
      "uniques": [
                  "Gain [600]-[900] [Gold]"
                 ], 
@@ -35,7 +35,7 @@
   {
      "name":  "a huge stash of gold",
      "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
-      "weight": 1
+      "weight": 4
      "uniques": [
                  "Gain [800]-[1200] [Gold]"
                 ], 
@@ -44,7 +44,7 @@
   { 
      "name": "discover minimal cultural signs",
      "notification": "We have discovered cultural signs in the ruins!",
-     "weight": 5
+     "weight": 8
      "uniques": [
                  "Gain [30]-[50] [Culture]", 
                  "Hidden after founding a Pantheon"
@@ -53,7 +53,7 @@
   { 
      "name": "discover some cultural signs",
      "notification": "We have discovered cultural signs in the ruins!",
-     "weight": 4
+     "weight": 7
      "uniques": [
                  "Gain [40]-[60] [Culture]", 
                  "Hidden after founding a Pantheon"
@@ -62,7 +62,7 @@
   { 
      "name": "discover cultural signs",
      "notification": "We have discovered cultural signs in the ruins!",
-     "weight": 3
+     "weight": 6
      "uniques": [
                  "Gain [50]-[80] [Culture]", 
                  "Hidden after founding a Pantheon"
@@ -71,7 +71,7 @@
   { 
      "name": "discover impressive cultural signs",
      "notification": "We have discovered cultural signs in the ruins!",
-     "weight": 2
+     "weight": 5
      "uniques": [
                  "Gain [60]-[90] [Culture]", 
                  "Hidden after founding a Pantheon"
@@ -80,7 +80,7 @@
   { 
      "name": "discover significant cultural signs",
      "notification": "We have discovered cultural signs in the ruins!",
-     "weight": 1
+     "weight": 4
      "uniques": [
                  "Gain [70]-[110] [Culture]", 
                  "Hidden after founding a Pantheon"
@@ -89,7 +89,7 @@
   { 
      "name": "discover minimal cultural artifacts",
      "notification": "We have discovered cultural artifacts in the ruins!",
-     "weight": 5
+     "weight": 7
      "uniques": [
                  "Gain [50]-[100] [Culture]", 
                  "Hidden before founding a Pantheon", 
@@ -99,7 +99,7 @@
   { 
      "name": "discover minor cultural artifacts",
      "notification": "We have discovered cultural artifacts in the ruins!",
-     "weight": 4
+     "weight": 6
      "uniques": [
                  "Gain [100]-[200] [Culture]", 
                  "Hidden before founding a Pantheon", 
@@ -109,7 +109,7 @@
   { 
      "name": "discover cultural artifacts",
      "notification": "We have discovered cultural artifacts in the ruins!",
-     "weight": 3
+     "weight": 5
      "uniques": [
                  "Gain [150]-[300] [Culture]", 
                  "Hidden before founding a Pantheon", 
@@ -119,7 +119,7 @@
   { 
      "name": "discover significant cultural artifacts",
      "notification": "We have discovered cultural artifacts in the ruins!",
-     "weight": 2
+     "weight": 4
      "uniques": [
                  "Gain [200]-[400] [Culture]", 
                  "Hidden before founding a Pantheon", 
@@ -129,7 +129,7 @@
   { 
      "name": "discover major cultural artifacts",
      "notification": "We have discovered cultural artifacts in the ruins!",
-     "weight": 1
+     "weight": 3
      "uniques": [
                  "Gain [250]-[500] [Culture]", 
                  "Hidden before founding a Pantheon", 
@@ -140,7 +140,7 @@
   { 
      "name": "discover few holy symbols", 
      "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion!", 
-     "weight": 4
+     "weight": 8
      "uniques": [
                  "Hidden when religion is disabled", 
                  "Hidden after founding a Pantheon", 
@@ -150,7 +150,7 @@
   { 
      "name": "discover holy symbols", 
      "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion!", 
-     "weight": 3
+     "weight": 7
      "uniques": [
                  "Hidden when religion is disabled", 
                  "Hidden after founding a Pantheon", 
@@ -160,7 +160,7 @@
   { 
      "name": "discover many holy symbols", 
      "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion!", 
-     "weight": 2
+     "weight": 6
      "uniques": [
                  "Hidden when religion is disabled", 
                  "Hidden after founding a Pantheon", 
@@ -170,7 +170,7 @@
   { 
      "name": "discover piles of holy symbols", 
      "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion!", 
-     "weight": 1
+     "weight": 5
      "uniques": [
                  "Hidden when religion is disabled", 
                  "Hidden after founding a Pantheon", 
@@ -180,7 +180,7 @@
   { 
      "name": "an obscure ancient prophecy", 
      "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection!", 
-     "weight": 4
+     "weight": 7
      "uniques": [
                  "Hidden when religion is disabled", 
                  "Hidden before founding a Pantheon", 
@@ -191,7 +191,7 @@
   { 
      "name": "an ancient prophecy", 
      "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection!", 
-     "weight": 3
+     "weight": 6
      "uniques": [
                  "Hidden when religion is disabled", 
                  "Hidden before founding a Pantheon", 
@@ -202,7 +202,7 @@
   { 
      "name": "a clear ancient prophecy", 
      "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection!", 
-     "weight": 2
+     "weight": 5
      "uniques": [
                  "Hidden when religion is disabled", 
                  "Hidden before founding a Pantheon", 
@@ -213,7 +213,7 @@
   { 
      "name": "an unambiguous ancient prophecy", 
      "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection!", 
-     "weight": 1
+     "weight": 4
      "uniques": [
                  "Hidden when religion is disabled", 
                  "Hidden before founding a Pantheon", 
@@ -225,7 +225,7 @@
   { 
      "name": "discover minor research", 
      "notification": "We have discovered some research in the ruins!", 
-     "weight": 5
+     "weight": 8
      "uniques": [
                  "Gain [50]-[80] [Science]"
                 ] 		
@@ -233,7 +233,7 @@
   { 
      "name": "discover simple research", 
      "notification": "We have discovered some research in the ruins!", 
-     "weight": 4
+     "weight": 7
      "uniques": [
                  "Gain [80]-[120] [Science]"
                 ] 		
@@ -241,7 +241,7 @@
   { 
      "name": "discover significant research", 
      "notification": "We have discovered some research in the ruins!", 
-     "weight": 3
+     "weight": 6
      "uniques": [
                  "Gain [120]-[180] [Science]"
                 ] 		
@@ -249,7 +249,7 @@
   { 
      "name": "discover major research", 
      "notification": "We have discovered some research in the ruins!", 
-     "weight": 2
+     "weight": 5
      "uniques": [
                  "Gain [180]-[270] [Science]"
                 ] 		
@@ -257,7 +257,7 @@
   { 
      "name": "discover groundbreaking research", 
      "notification": "We have discovered some research in the ruins!", 
-     "weight": 1
+     "weight": 4
      "uniques": [
                  "Gain [270]-[400] [Science]"
                 ] 		
@@ -265,7 +265,7 @@
   { 
      "name": "discover ancient technology", 
      "notification": "We have discovered a technology from the Ancient Era in the ruins!", 
-     "weight": 4
+     "weight": 7
      "uniques": [
                  "[1] free random researchable Tech(s) from the [Ancient era]"
                 ] 		
@@ -273,7 +273,7 @@
   { 
      "name": "discover classial technology", 
      "notification": "We have discovered a technology from the Classical Era in the ruins!", 
-     "weight": 3
+     "weight": 6
      "uniques": [
                  "[1] free random researchable Tech(s) from the [Classical era]",
                  "Only available after [60] turns", //this is a stopgap 
@@ -283,7 +283,7 @@
   { 
      "name": "discover medieval technology", 
      "notification": "We have discovered a technology from the Medieval Era in the ruins!", 
-     "weight": 2
+     "weight": 5
      "uniques": [
                  "[1] free random researchable Tech(s) from the [Medieval era]",
                  "Only available after [90] turns"//because "Only available" doesn't work 
@@ -296,9 +296,14 @@
      "notification": "A local tribe has joined us!", 
      "weight": 4
      "uniques": [
-                 "Free [Worker] found in the ruins",
+*/                 "Free [Worker] found in the ruins",
                  "Free [Brute] found in the ruins",
                  "Free [Skirmisher] found in the ruins"
+/*
+//So this doesn't actually work as intended
+                 "Free [Worker] appears",
+                 "Free [Brute] appears",
+                 "Free [Skirmisher] appears"
                 ] 		
   }, 
   { 
@@ -306,12 +311,17 @@
      "notification": "A local tribe has joined us!", 
      "weight": 3
      "uniques": [
-                 "Free [Settler] found in the ruins",
+*/                 "Free [Settler] found in the ruins",
                  "Free [Brute] found in the ruins",
                  "Free [Brute] found in the ruins",
                  "Free [Marauder] found in the ruins",
                  "Free [Skirmisher] found in the ruins",
                  "Free [Skirmisher] found in the ruins"
+/*
+                 "Free [Settler] appears",
+                 "Free [Marauder] appears",
+                 "[2] free [Skirmisher] units appear",
+                 "[2] free [Brute] units appear"
                 ] 		
   }, 
   { 
@@ -319,10 +329,14 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 2
      "uniques": [
-                 "Free [Worker] found in the ruins",
+*/                 "Free [Worker] found in the ruins",
                  "Free [Horseman] found in the ruins",
                  "Free [Horse Archer] found in the ruins"
                  "Only available <in tiles without [Desert]> <in tiles without [Snow]> <in tiles without [Grassland]>"//this is kinda awkward but it's the only thing I can think of that will limit this to plains and tundra as intended.
+/*
+                 "Free [Worker] appears",
+                 "Free [Horseman] appears",
+                 "Free [Horse Archer] appears"
                 ] 		
   }, 
   { 
@@ -330,13 +344,19 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 1
      "uniques": [
-                 "Free [Settler] found in the ruins",
+*/                 "Free [Settler] found in the ruins",
                  "Free [Horseman] found in the ruins",
                  "Free [Horseman] found in the ruins",
                  "Free [Keshik] found in the ruins",
                  "Free [Horse Archer] found in the ruins",
                  "Free [Horse Archer] found in the ruins"
                  "Only available <in tiles without [Desert]> <in tiles without [Snow]> <in tiles without [Grassland]>"//this is kinda awkward but it's the only thing I can think of that will limit this to plains and tundra as intended.
+/*
+//Since the restrictions don't work anyway...
+                 "Free [Settler] appears",
+                 "Free [Keshik] appears",
+                 "[2] free [Horseman] units appear",
+                 "[2] free [Horse Archer] units appear"
                 ] 		
   },  		
   { 
@@ -344,10 +364,11 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 2
      "uniques": [
-                 "Free [Worker] found in the ruins",
+*/                 "Free [Worker] found in the ruins",
                  "Free [War Chariot] found in the ruins",
                  "Free [Camel Archer] found in the ruins",
                  "Only available <in [Desert] tiles>"
+/*
                 ] 		
   }, 
   { 
@@ -355,13 +376,17 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 1
      "uniques": [
-                 "Free [Settler] found in the ruins",
+*/                 "Free [Settler] found in the ruins",
                  "Free [War Chariot] found in the ruins",
                  "Free [War Chariot] found in the ruins",
-                 "Free [Camel Archer] found in the ruins",
+                 "Free [War Chariot] found in the ruins",
                  "Free [Camel Archer] found in the ruins",
                  "Free [Camel Archer] found in the ruins",
                  "Only available <in [Desert] tiles>"
+/*
+                 "Free [Settler] appears",
+                 "[3] free [War Chariot] units appear",
+                 "[2] free [Camel Archer] units appear"
                 ] 		
   }, 
   { 
@@ -369,10 +394,14 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 3
      "uniques": [
-                 "Free [Worker] found in the ruins",
+*/                 "Free [Worker] found in the ruins",
                  "Free [Jaguar] found in the ruins",
                  "Free [Atlatlist] found in the ruins",
                  "Only available <in [Jungle] tiles>"
+/*
+                 "Free [Worker] appears",
+                 "Free [Jaguar] appears",
+                 "Free [Atlatlist] appears"
                 ] 		
   }, 
   { 
@@ -380,13 +409,18 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 2
      "uniques": [
-                 "Free [Settler] found in the ruins",
+*/                 "Free [Settler] found in the ruins",
                  "Free [Jaguar] found in the ruins",
                  "Free [Jaguar] found in the ruins",
                  "Free [Jaguar] found in the ruins",
                  "Free [Atlatlist] found in the ruins",
                  "Free [Atlatlist] found in the ruins",
                  "Only available <in [Jungle] tiles>"
+/*
+                 "Free [Settler] appears",
+                 "[3] free [Jaguar] units appear",
+                 "[2] free [Atlatlist] units appear"
+
                 ] 		
   }, 
   { 
@@ -394,10 +428,14 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 3
      "uniques": [
-                 "Free [Worker] found in the ruins",
+*/                 "Free [Worker] found in the ruins",
                  "Free [Mohawk Warrior] found in the ruins",
                  "Free [Bowman] found in the ruins",
                  "Only available <in [Forest] tiles> <in tiles without [Tundra]>"
+/*
+                 "Free [Worker] appears",
+                 "Free [Mohawk Warrior] appears",
+                 "Free [Bowman] appears"
                 ] 		
   }, 
   { 
@@ -405,51 +443,55 @@
      "notification": "A band of nomads has joined us!", 
      "weight": 2
      "uniques": [
-                 "Free [Settler] found in the ruins",
+*/                 "Free [Settler] found in the ruins",
                  "Free [Mohawk Warrior] found in the ruins",
                  "Free [Mohawk Warrior] found in the ruins",
                  "Free [Bowman] found in the ruins",
                  "Free [Bowman] found in the ruins",
                  "Free [Bowman] found in the ruins",
                  "Only available <in [Forest] tiles> <in tiles without [Tundra]>"
+/*
+                 "Free [Settler] appears",
+                 "[3] free [Bowman] units appear",
+                 "[2] free [Mohawk Warrior] units appear"
                 ] 		
   }, 
 // Maps
   { 
      "name": "find a crudely-drawn map", 
      "notification": "We have found an old map in the ruins!", 
-     "weight": 5
+     "weight": 8
      "uniques": ["From a randomly chosen tile [3] tiles away from the ruins, reveal tiles up to [6] tiles away with [90]% chance"] 
   }, 
   { 
      "name": "find a bigger map", 
      "notification": "We have found an old map in the ruins!", 
-     "weight": 4
+     "weight": 7
      "uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [8] tiles away with [90]% chance"] 
   }, 
   { 
      "name": "find a even bigger map", 
      "notification": "We have found an old map in the ruins!", 
-     "weight": 3
+     "weight": 6
      "uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [10] tiles away with [90]% chance"] 
   }, 
   { 
      "name": "find a better map", 
      "notification": "We have found an old map in the ruins!", 
-     "weight": 2
+     "weight": 5
      "uniques": ["From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [8] tiles away with [100]% chance"] 
   }, 
   { 
      "name": "find a the best map", 
      "notification": "We have found an old map in the ruins!", 
-     "weight": 1
+     "weight": 4
      "uniques": ["From a randomly chosen tile [8] tiles away from the ruins, reveal tiles up to [12] tiles away with [100]% chance"] 
   }, 
 //Don't want to delete this but I make it less common 
   { 
      "name": "advanced weaponry for your explorer", 
      "notification": "Our unit finds advanced weaponry hidden in the ruins!", 
-     "weight": 2
+     "weight": 5
      "uniques": [
                 "This Unit upgrades for free including special upgrades", 
                 "This Unit gains [15] XP"
