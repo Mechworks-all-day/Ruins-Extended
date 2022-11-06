@@ -276,6 +276,7 @@
      "weight": 3
      "uniques": [
                  "[1] free random researchable Tech(s) from the [Classical era]",
+                 "Only available after [60] turns", //this is a stopgap 
                  "Only available <starting from the [Classical era]>"
                 ] 		
   }, 
@@ -285,6 +286,7 @@
      "weight": 2
      "uniques": [
                  "[1] free random researchable Tech(s) from the [Medieval era]",
+                 "Only available after [90] turns"//because "Only available" doesn't work 
                  "Only available <starting from the [Medieval era]>"
                 ] 		
   }, 
