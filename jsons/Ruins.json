@@ -88,7 +88,7 @@
   },
   { 
      "name": "discover minimal cultural artifacts",
-     "notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
+     "notification": "We have discovered cultural artifacts in the ruins!",
      "weight": 5
      "uniques": [
                  "Gain [50]-[100] [Culture]", 
