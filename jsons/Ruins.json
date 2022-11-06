@@ -342,7 +342,7 @@
   { 
      "name": "a small desert tribe has agreed to your rule", 
      "notification": "A band of nomads has joined us!", 
-     "weight": 3
+     "weight": 2
      "uniques": [
                  "Free [Worker] found in the ruins",
                  "Free [War Chariot] found in the ruins",
@@ -353,7 +353,7 @@
   { 
      "name": "a large desert tribe has agreed to your rule", 
      "notification": "A band of nomads has joined us!", 
-     "weight": 2
+     "weight": 1
      "uniques": [
                  "Free [Settler] found in the ruins",
                  "Free [War Chariot] found in the ruins",
