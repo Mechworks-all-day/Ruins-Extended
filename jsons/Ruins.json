@@ -47,7 +47,7 @@
      "weight": 8
      "uniques": [
                  "Gain [30]-[50] [Culture]", 
-                 "Hidden after founding a Pantheon"
+                 "Only available <before founding a Pantheon>"
                  ], 
   },
   { 
@@ -56,7 +56,7 @@
      "weight": 7
      "uniques": [
                  "Gain [40]-[60] [Culture]", 
-                 "Hidden after founding a Pantheon"
+                 "Only available <before founding a Pantheon>"
                  ], 
   },
   { 
@@ -65,7 +65,7 @@
      "weight": 6
      "uniques": [
                  "Gain [50]-[80] [Culture]", 
-                 "Hidden after founding a Pantheon"
+                 "Only available <before founding a Pantheon>"
                  ], 
   },
   { 
@@ -74,7 +74,7 @@
      "weight": 5
      "uniques": [
                  "Gain [60]-[90] [Culture]", 
-                 "Hidden after founding a Pantheon"
+                 "Only available <before founding a Pantheon>"
                  ], 
   },
   { 
@@ -83,7 +83,7 @@
      "weight": 4
      "uniques": [
                  "Gain [70]-[110] [Culture]", 
-                 "Hidden after founding a Pantheon"
+                 "Only available <before founding a Pantheon>"
                  ], 
   },
   { 
@@ -92,7 +92,7 @@
      "weight": 7
      "uniques": [
                  "Gain [50]-[100] [Culture]", 
-                 "Hidden before founding a Pantheon", 
+                 "Only available <after founding a Pantheon>", 
                  "Only available after [30] turns"
                 ], 
   },
@@ -102,7 +102,7 @@
      "weight": 6
      "uniques": [
                  "Gain [100]-[200] [Culture]", 
-                 "Hidden before founding a Pantheon", 
+                 "Only available <after founding a Pantheon>", 
                  "Only available after [30] turns"
                 ], 
   },
@@ -112,7 +112,7 @@
      "weight": 5
      "uniques": [
                  "Gain [150]-[300] [Culture]", 
-                 "Hidden before founding a Pantheon", 
+                 "Only available <after founding a Pantheon>", 
                  "Only available after [30] turns"
                 ], 
   },
@@ -122,7 +122,7 @@
      "weight": 4
      "uniques": [
                  "Gain [200]-[400] [Culture]", 
-                 "Hidden before founding a Pantheon", 
+                 "Only available <after founding a Pantheon>", 
                  "Only available after [30] turns"
                 ], 
   },
@@ -132,7 +132,7 @@
      "weight": 3
      "uniques": [
                  "Gain [250]-[500] [Culture]", 
-                 "Hidden before founding a Pantheon", 
+                 "Only available <after founding a Pantheon>", 
                  "Only available after [30] turns"
                 ], 
   },
@@ -143,7 +143,7 @@
      "weight": 8
      "uniques": [
                  "Hidden when religion is disabled", 
-                 "Hidden after founding a Pantheon", 
+                 "Only available <before founding a Pantheon>", 
                  "Gain [2]-[3] [Faith]"
                  ],
   }, 
@@ -153,7 +153,7 @@
      "weight": 7
      "uniques": [
                  "Hidden when religion is disabled", 
-                 "Hidden after founding a Pantheon", 
+                 "Only available <before founding a Pantheon>", 
                  "Gain [3]-[5] [Faith]"
                  ],
   }, 
@@ -163,7 +163,7 @@
      "weight": 6
      "uniques": [
                  "Hidden when religion is disabled", 
-                 "Hidden after founding a Pantheon", 
+                 "Only available <before founding a Pantheon>", 
                  "Gain [5]-[8] [Faith]"
                  ],
   }, 
@@ -173,7 +173,7 @@
      "weight": 5
      "uniques": [
                  "Hidden when religion is disabled", 
-                 "Hidden after founding a Pantheon", 
+                 "Only available <before founding a Pantheon>", 
                  "Gain enough Faith for a Pantheon", 
                  ],
   }, 
@@ -183,9 +183,9 @@
      "weight": 7
      "uniques": [
                  "Hidden when religion is disabled", 
-                 "Hidden before founding a Pantheon", 
-                 "Only available after [20] turns",
-                 "Gain [200]-[300] [Faith]"
+                 "Only available <after founding a Pantheon>", 
+                 "Only available <after [20] turns>",
+                 "Gain enough Faith for [25]% of a Great Prophet"
                  ],
   },
   { 
@@ -194,9 +194,9 @@
      "weight": 6
      "uniques": [
                  "Hidden when religion is disabled", 
-                 "Hidden before founding a Pantheon", 
-                 "Only available after [20] turns",
-                 "Gain [300]-[500] [Faith]"
+                 "Only available <after founding a Pantheon>", 
+                 "Only available <after [20] turns>",
+                 "Gain enough Faith for [40]% of a Great Prophet"
                  ],
   },
   { 
@@ -205,9 +205,9 @@
      "weight": 5
      "uniques": [
                  "Hidden when religion is disabled", 
-                 "Hidden before founding a Pantheon", 
-                 "Only available after [20] turns",
-                 "Gain [500]-[800] [Faith]"
+                 "Only available <after founding a Pantheon>", 
+                 "Only available <after [20] turns>",
+                 "Gain enough Faith for [60]% of a Great Prophet"
                  ],
   },
   { 
@@ -216,8 +216,8 @@
      "weight": 4
      "uniques": [
                  "Hidden when religion is disabled", 
-                 "Hidden before founding a Pantheon", 
-                 "Only available after [20] turns",
+                 "Only available <after founding a Pantheon>", 
+                 "Only available <after [20] turns>",
                  "Gain enough Faith for [100]% of a Great Prophet", 
                  ],
   },
@@ -228,7 +228,7 @@
      "weight": 8
      "uniques": [
                  "Gain [15]-[30] [Science]"
-                ] 		
+                ]         
   }, 
   { 
      "name": "discover simple research", 
@@ -236,7 +236,7 @@
      "weight": 7
      "uniques": [
                  "Gain [20]-[35] [Science]"
-                ] 		
+                ]         
   }, 
   { 
      "name": "discover significant research", 
@@ -244,7 +244,7 @@
      "weight": 6
      "uniques": [
                  "Gain [50]-[100] [Science]"
-                ] 		
+                ]         
   }, 
   { 
      "name": "discover major research", 
@@ -252,7 +252,7 @@
      "weight": 5
      "uniques": [
                  "Gain [80]-[150] [Science]"
-                ] 		
+                ]         
   }, 
   { 
      "name": "discover groundbreaking research", 
@@ -260,7 +260,7 @@
      "weight": 4
      "uniques": [
                  "Gain [110]-[200] [Science]"
-                ] 		
+                ]         
   }, 
   { 
      "name": "discover ancient technology", 
@@ -268,17 +268,17 @@
      "weight": 7
      "uniques": [
                  "[1] free random researchable Tech(s) from the [Ancient era]"
-                ] 		
+                ]         
   }, 
   { 
-     "name": "discover classial technology", 
+     "name": "discover classical technology", 
      "notification": "We have discovered a technology from the Classical Era in the ruins!", 
      "weight": 6
      "uniques": [
                  "[1] free random researchable Tech(s) from the [Classical era]",
-                 "Only available after [60] turns", //this is a stopgap 
+//                 "Only available after [60] turns", //this is a stopgap 
                  "Only available <starting from the [Classical era]>"
-                ] 		
+                ]         
   }, 
   { 
      "name": "discover medieval technology", 
@@ -286,10 +286,11 @@
      "weight": 5
      "uniques": [
                  "[1] free random researchable Tech(s) from the [Medieval era]",
-                 "Only available after [90] turns"//because "Only available" doesn't work 
+//                 "Only available after [90] turns"//because "Only available" doesn't work 
                  "Only available <starting from the [Medieval era]>"
-                ] 		
+                ]         
   }, 
+//Alright, we're testing for if the era restrictions work properly now.
 //Natives
 /*  { 
      "name": "a small barbarian tribe has agreed to your rule", 
@@ -303,7 +304,7 @@
                  "Free [Worker] appears",
                  "Free [Brute] appears",
                  "Free [Skirmisher] appears"
-                ] 		
+                ]         
   }, 
   { 
      "name": "a large barbarian tribe has agreed to your rule", 
@@ -320,7 +321,7 @@
                  "Free [Marauder] appears",
                  "[2] free [Skirmisher] units appear",
                  "[2] free [Brute] units appear"
-                ] 		
+                ]         
   }, 
   { 
      "name": "a small nomad tribe has agreed to your rule", 
@@ -334,7 +335,7 @@
                  "Free [Worker] appears",
                  "Free [Horseman] appears",
                  "Free [Horse Archer] appears"
-                ] 		
+                ]         
   }, 
   { 
      "name": "a large nomad tribe has agreed to your rule", 
@@ -353,8 +354,8 @@
                  "Free [Keshik] appears",
                  "[2] free [Horseman] units appear",
                  "[2] free [Horse Archer] units appear"
-                ] 		
-  },  		
+                ]         
+  },          
   { 
      "name": "a small desert tribe has agreed to your rule", 
      "notification": "A band of nomads has joined us!", 
@@ -367,7 +368,7 @@
                  "Free [Worker] appears",
                  "Free [War Chariot] appears",
                  "Free [Camel Archer] appears"
-                ] 		
+                ]         
   }, 
   { 
      "name": "a large desert tribe has agreed to your rule", 
@@ -384,7 +385,7 @@
                  "Free [Settler] appears",
                  "[3] free [War Chariot] units appear",
                  "[2] free [Camel Archer] units appear"
-                ] 		
+                ]         
   }, 
   { 
      "name": "a small jungle tribe has agreed to your rule", 
@@ -398,7 +399,7 @@
                  "Free [Worker] appears",
                  "Free [Jaguar] appears",
                  "Free [Atlatlist] appears"
-                ] 		
+                ]         
   }, 
   { 
      "name": "a large jungle tribe has agreed to your rule", 
@@ -415,7 +416,7 @@
                  "Free [Settler] appears",
                  "[3] free [Jaguar] units appear",
                  "[2] free [Atlatlist] units appear"
-                ] 		
+                ]         
   }, 
   { 
      "name": "a small forest tribe has agreed to your rule", 
@@ -429,7 +430,7 @@
                  "Free [Worker] appears",
                  "Free [Mohawk Warrior] appears",
                  "Free [Bowman] appears"
-                ] 		
+                ]         
   }, 
   { 
      "name": "a large forest tribe has agreed to your rule", 
@@ -446,7 +447,7 @@
                  "Free [Settler] appears",
                  "[3] free [Bowman] units appear",
                  "[2] free [Mohawk Warrior] units appear"
-                ] 		
+                ]         
   },*/
 //So seeing as none of this works as intended, Imma just semi-cut it instead.
 // Maps
@@ -522,3 +523,4 @@
      "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
   }
 ]
+
