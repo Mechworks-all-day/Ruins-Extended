@@ -93,7 +93,7 @@
      "uniques": [
                  "Gain [50]-[100] [Culture]", 
                  "Only available <after founding a Pantheon>", 
-                 "Only available after [30] turns"
+                 "Only available <after [30] turns>"
                 ], 
   },
   { 
@@ -103,7 +103,7 @@
      "uniques": [
                  "Gain [100]-[200] [Culture]", 
                  "Only available <after founding a Pantheon>", 
-                 "Only available after [30] turns"
+                 "Only available <after [30] turns>"
                 ], 
   },
   { 
@@ -113,7 +113,7 @@
      "uniques": [
                  "Gain [150]-[300] [Culture]", 
                  "Only available <after founding a Pantheon>", 
-                 "Only available after [30] turns"
+                 "Only available <after [30] turns>"
                 ], 
   },
   { 
@@ -123,7 +123,7 @@
      "uniques": [
                  "Gain [200]-[400] [Culture]", 
                  "Only available <after founding a Pantheon>", 
-                 "Only available after [30] turns"
+                 "Only available <after [30] turns>"
                 ], 
   },
   { 
@@ -133,7 +133,7 @@
      "uniques": [
                  "Gain [250]-[500] [Culture]", 
                  "Only available <after founding a Pantheon>", 
-                 "Only available after [30] turns"
+                 "Only available <after [30] turns>"
                 ], 
   },
 //Faith
