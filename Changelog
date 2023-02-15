@@ -1,3 +1,4 @@
 02-14-2023
 Updated Pantheon based restrictions to use "Only available" plus qualifiers rather than the now depricated specific uniques.
 Experimentally removed turn based restrictions on tech finds, in hopes that the Era ones are actually working now.
+Wishing again that the natives ones actually worked, but such is life.
