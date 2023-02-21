@@ -1,2 +1,3 @@
-# Ruins-Extended
-Alternative to Better Ruins with a wider variaty of effects.
+# Ruins-Extended-Classic
+Increases ruins rate and adds a wider variaty of effects.
+A technical alternative to Better Ruins.
