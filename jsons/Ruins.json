@@ -1,6 +1,6 @@
 [ 
 //Gold 
-/*  {
+  {
      "name":  "a tiny stash of gold",
      "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
       "weight": 8
@@ -15,7 +15,7 @@
      "uniques": [
                  "Gain [150]-[225] [Gold]"
                 ], 
-  },*/
+  },
   {
      "name":  "a stash of gold",
      "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
@@ -41,7 +41,7 @@
                 ], 
   },
 //Culture 
-/*  { 
+  { 
      "name": "discover minimal cultural signs",
      "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
      "weight": 8
@@ -58,7 +58,7 @@
                  "Gain [40]-[60] [Culture]", 
                  "Only available <before founding a Pantheon>"
                  ], 
-  },*/
+  },
   { 
      "name": "discover cultural signs",
      "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
@@ -86,7 +86,7 @@
                  "Only available <before founding a Pantheon>"
                  ], 
   },
-/*  { 
+  { 
      "name": "discover minimal cultural artifacts",
      "notification": "We have discovered cultural artifacts in the ruins! (+[cultureAmount] Culture)",
      "weight": 7
@@ -95,7 +95,7 @@
                  "Only available <after founding a Pantheon>", 
                  "Only available <after [30] turns>"
                 ], 
-  },*/
+  },
   { 
      "name": "discover minor cultural artifacts",
      "notification": "We have discovered cultural artifacts in the ruins! (+[cultureAmount] Culture)",
@@ -137,7 +137,7 @@
                 ], 
   },
 //Faith
-/*  { 
+  { 
      "name": "discover few holy symbols", 
      "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
      "weight": 8
@@ -156,7 +156,7 @@
                  "Only available <before founding a Pantheon>", 
                  "Gain [3]-[5] [Faith]"
                  ],
-  }, */
+  }, 
   { 
      "name": "discover many holy symbols", 
      "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
@@ -177,7 +177,7 @@
                  "Gain enough Faith for a Pantheon", 
                  ],
   }, 
- /* { 
+  { 
      "name": "an obscure ancient prophecy", 
      "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
      "weight": 7
@@ -187,7 +187,7 @@
                  "Only available <after [20] turns>",
                  "Gain enough Faith for [25]% of a Great Prophet"
                  ],
-  },*/
+  },
   { 
      "name": "an ancient prophecy", 
      "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
@@ -222,7 +222,7 @@
                  ],
   },
 //Science
-/*  { 
+  { 
      "name": "discover minor research", 
      "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)", 
      "weight": 8
@@ -237,7 +237,7 @@
      "uniques": [
                  "Gain [20]-[35] [Science]"
                 ]         
-  }, */
+  }, 
   { 
      "name": "discover significant research", 
      "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)", 
@@ -265,7 +265,7 @@
   { 
      "name": "discover ancient technology", 
      "notification": "We have discovered a technology from the Ancient Era in the ruins!", 
-     "weight": 6 //was 7
+     "weight": 7
      "uniques": [
                  "[1] free random researchable Tech(s) from the [Ancient era]"
                 ]         
@@ -273,7 +273,7 @@
   { 
      "name": "discover classical technology", 
      "notification": "We have discovered a technology from the Classical Era in the ruins!", 
-     "weight": 5 //was 6
+     "weight": 6
      "uniques": [
                  "[1] free random researchable Tech(s) from the [Classical era]",
 //                 "Only available after [60] turns", //this is a stopgap 
@@ -283,7 +283,7 @@
   { 
      "name": "discover medieval technology", 
      "notification": "We have discovered a technology from the Medieval Era in the ruins!", 
-     "weight": 4 //was 5
+     "weight": 5
      "uniques": [
                  "[1] free random researchable Tech(s) from the [Medieval era]",
 //                 "Only available after [90] turns"//because "Only available" doesn't work 
@@ -327,13 +327,13 @@
   { 
      "name": "advanced weaponry for your explorer", 
      "notification": "Our unit finds advanced weaponry hidden in the ruins!", 
-     "weight": 0 // was 5
-/*     "uniques": [
+     "weight": 5
+     "uniques": [
                 "This Unit upgrades for free including special upgrades", 
                 "This Unit gains [15] XP"
-                ] */
-     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
-  }//This is *also* DELETED 
+                ] 
+     //"excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  }
 //Deletions
   {
      "name": "squatters wishing to settle under your rule",
