@@ -2,3 +2,10 @@
 Updated Pantheon based restrictions to use "Only available" plus qualifiers rather than the now depricated specific uniques.
 Experimentally removed turn based restrictions on tech finds, in hopes that the Era ones are actually working now.
 Wishing again that the natives ones actually worked, but such is life.
+
+02-20-2022
+Removed entire Natives section because that whole mechanic is fundamentally incompatible with the desired function
+Depricated *all* of the maps and the actual upgrade effect (it was enough of a letdown when ruins were *common*
+Deprecated all effects under Weight 6
+Dropped the "discover a technology" effects by one weight bracket
+(All the depricated effects are still in the file, if anybody has a reason to use them)
